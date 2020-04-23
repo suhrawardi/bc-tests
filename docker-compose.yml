@@ -1,0 +1,17 @@
+version: '3'
+
+services:
+
+  bc-tests:
+    shm_size: 1GB
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        USER_ID: ${USER_ID:-0}
+        GROUP_ID: ${GROUP_ID:-0}
+    env_file:
+      - ./.env
+    volumes:
+      - ./reports:/usr/src/app/reports
+      - ./package:/usr/src/app/package
