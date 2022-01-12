@@ -19,7 +19,7 @@ mypy-extensions==0.4.3
 -e git+https://github.com/suhrawardi/python-odata.git@4f063673710d8e480f8825c170b7aa0db631e0cf#egg=odata
 parse==1.15.0
 parse-type==0.5.2
-pipenv==2018.11.26
+pipenv==2022.1.8
 pycodestyle==2.5.0
 pydocstyle==5.0.2
 pyflakes==2.1.1
