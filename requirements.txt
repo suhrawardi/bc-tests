@@ -3,7 +3,7 @@ attrs==19.3.0
 -e git+https://github.com/suhrawardi/behave.git@a5ce707c4c49c51a403b67d916c27c416ebcbf5e#egg=behave
 behave2cucumber==1.0.3
 cached-property==1.5.1
-certifi==2019.11.28
+certifi==2022.12.7
 chardet==3.0.4
 colorama==0.4.3
 cucumber-tag-expressions==2.0.4
